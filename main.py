@@ -18,5 +18,8 @@ m1.add_product(p33)
 
 print(f"Ukupna cena: {m1.total_price()}")
 
- 
+m1.remove_product("Laptop") 
+print(f"Product Manager {m1}")
+print(f"Ukupna cen: {m1.total_price()}")
+
 

@@ -17,3 +17,9 @@ class ProductManager :
 		
 		return sum([price for price in map(lambda x : x.get_price() * x.get_quantity(), self.products)]) 
 
+
+	def remove_product(self,product_name): 
+		for p in self.products: 
+			if p.name == product_name : 
+				self.products.remove(p)
+
