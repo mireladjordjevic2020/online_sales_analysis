@@ -1,2 +1,9 @@
 __pycache__/
 *.pyc
+config.json
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
