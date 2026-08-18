@@ -19,7 +19,4 @@ class ProductManager :
 
 
 	def remove_product(self,product_name): 
-		for p in self.products: 
-			if p.name == product_name : 
-				self.products.remove(p)
-
+		self.products = [p for p in self.products if p.name.lower() != product_name.lower()]
